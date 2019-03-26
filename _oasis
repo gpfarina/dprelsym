@@ -1,0 +1,19 @@
+Name: Relational Symbolic Execution for DP 
+Version: 0.1
+Synopsis: ...
+Authors: Me <XXXX@gmail.com>
+License: LGPL with OCaml linking exception
+
+Description: 
+Homepage: http://www.
+
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+BuildDepends: z3, core, ppx_let
+Executable "rsdpfor"
+    Path: src
+    MainIs: rsdpfor.ml
+    CompiledObject: best 
+    ByteOpt: -g -thread 
+    NativeOpt: -thread 
